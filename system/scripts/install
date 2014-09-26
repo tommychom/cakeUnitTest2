@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p deploy/public/tmp/purifier
+chmod -R 777 deploy/public/tmp

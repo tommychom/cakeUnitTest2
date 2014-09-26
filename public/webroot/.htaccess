@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	ErrorDocument 404 /404.html
+    RewriteEngine On
+    RewriteRule ^(css|files|fonts|img|js|less)/?$ - [R=404,L]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

@@ -1,0 +1,74 @@
+#nav_user > li > a:hover,
+#nav_user > li > a:focus {
+  background-color: #024877 !important;
+}
+
+#nav_user .open > a, #nav_user .open > a:hover, #nav_usernav .open > a:focus {
+    background-color: #024877 !important;
+    border-color: #428BCA !important;
+}
+
+.custom-panel {
+    margin-top: 50px !important;
+}
+
+table th {text-align: center;}
+.text-center{text-align: center;}
+.tree-offset-1 {padding-left: 20px;}
+.tree-offset-2 {padding-left: 40px;}
+.tree-offset-3 {padding-left: 60px;}
+.tree-offset-4 {padding-left: 80px;}
+.tree-offset-5 {padding-left: 100px;}
+
+div.bullet {float: left; width: 15px; margin-right: 5px;}
+div.list {float: left;width:90%;}
+
+ul.tree-node {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.tree-node li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+ul.tree-node li:before {
+  content: ":--";
+  padding-right: 5px;
+}
+
+ul.tree-node-2 {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+ul.tree-node-2 li:before {
+    content: ":--";
+    display: block;
+    float: left;
+    width: 1.2em;
+    /*color: #ff0000;*/
+}
+
+.top-10 {
+	margin-top: 10px;
+}
+.actions-col {width: 118px;}
+.active-col {width: 100px;}
+.publish-col {width: 100px;}
+
+form .required label:after {
+  /*color: #e32;*/
+  content: '*';
+  display:inline;
+}
+form .required .checkbox label:after {
+  content: '';
+}
+form .required .col label:after {
+  content: '';
+}
