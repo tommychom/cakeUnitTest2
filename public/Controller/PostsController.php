@@ -30,7 +30,6 @@ class PostsController extends AppController
     }
 
     public function index(){
-		debug($this->Auth->user('id'));
 		$posts = $this->Post->getPost();
 		$this->set(compact('posts'));
     }
