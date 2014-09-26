@@ -146,7 +146,7 @@ Configure::load('pmi', 'default');
  * loading plugin
  */
 CakePlugin::load('Recaptcha');
-CakePlugin::load('DebugKit');
+//CakePlugin::load('DebugKit');
 CakePlugin::load('BoostCake');
 CakePlugin::load('Summernote');
 CakePlugin::load('AclExtras');
